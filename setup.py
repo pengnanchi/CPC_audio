@@ -9,8 +9,8 @@ import numpy
 
 extensions = [
     Extension(
-        "cpc.eval.ABX.dtw",
-        ["cpc/eval/ABX/dtw.pyx"],
+        "CPC_audio.cpc.eval.ABX.dtw",
+        ["CPC_audio/cpc/eval/ABX/dtw.pyx"],
         include_dirs=[numpy.get_include()],
     ),
 ]
