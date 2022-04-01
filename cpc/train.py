@@ -13,12 +13,12 @@ import random
 import psutil
 import sys
 
-import cpc.criterion as cr
-import cpc.model as model
-import cpc.utils.misc as utils
-import cpc.feature_loader as fl
-from cpc.cpc_default_config import set_default_cpc_config
-from cpc.dataset import AudioBatchData, findAllSeqs, filterSeqs, parseSeqLabels
+import criterion as cr
+import model as model
+import utils.misc as utils
+import feature_loader as fl
+from cpc_default_config import set_default_cpc_config
+from dataset import AudioBatchData, findAllSeqs, filterSeqs, parseSeqLabels
 
 
 def getCriterion(args, downsampling, nSpeakers, nPhones):
