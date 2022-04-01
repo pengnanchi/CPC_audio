@@ -7,9 +7,9 @@ import torchaudio
 import os
 import json
 import argparse
-from .cpc_default_config import get_default_cpc_config
-from .dataset import parseSeqLabels
-from .model import CPCModel, ConcatenatedModel
+from cpc_default_config import get_default_cpc_config
+from dataset import parseSeqLabels
+from model import CPCModel, ConcatenatedModel
 
 
 class FeatureModule(torch.nn.Module):
